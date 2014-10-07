@@ -53,7 +53,9 @@
 		},
 		'css': {
 			'': [
+				'css/font',
 				'css/com.layer',
+				'css/com.switcher',
 				'css/swiper'
 			]
 		}
