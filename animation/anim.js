@@ -12,15 +12,16 @@ Al.Anim = Alpha.createClass('Anim', {
     construct : function(param){
         this.param = param;
 
+        
         this.from = param.from;
         this.to = param.to;
         this.backwards = !!param.backwards;
         this.render = param.render;
         this.easeFunc = param.ease || Al.Ease.easeOutBack;
 
-
-        // this.dur = param.dur;
-        // this.delay = param.delay || 0;
+        this.componentsCount = param.componentsCount;
+        this.dur = param.dur;
+        this.delay = param.delay || 0;
         
         this.stopped = false; 
     },

@@ -56,8 +56,7 @@ AC.Pie = Alpha.createClass('Pie', {
         var anim = new Al.Anim({
             from : {
                 innerRadius : 0,
-                radius : 0,
-                radian : 0
+                radius : 0
             },
             to : {
                 innerRadius : this.innerRadius,
