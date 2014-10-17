@@ -41,7 +41,7 @@ Al.Com.Switcher = Al.createClass('Switcher', {
 
 	switchToRight: function(){
 		this.button.removeClass('left').addClass('right');
-		var x = this.switcher.width() / 2 - 4;
+		var x = this.switcher.width() / 2 - 2;
 		this.moveButton(x);
 	},
 

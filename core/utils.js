@@ -24,6 +24,10 @@ Alpha.Utils = {
             obj[tmp[0]] = tmp[1];
         }
         return obj;
+    },
+
+    copyJSON: function(json){
+        return JSON.parse(JSON.stringify(json));
     }
 };
 

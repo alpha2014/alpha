@@ -47,6 +47,7 @@
 				'components/weixinShare',
 				'components/dragger',
 				'components/layer',
+				'components/deviceMotion',
 				
 				'swiper/swiper',
 			]
@@ -66,7 +67,7 @@
 	 */
 	function includeAlpha(config){
 		
-		var base = (window.alphaBaePath||'') + (config['base']||'');
+		var base = (window.alphaBasePath||'') + (config['base']||'');
 
 		for(var i in config['css']){
 			includeStyle(base + i, config['css'][i]);
